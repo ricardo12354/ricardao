@@ -5,7 +5,7 @@ todos de uma vez só.
 Assim, toda tag h1 que for utilizada no HTML, será formatada com a fonte Arial:*/
 
 h1 {
-    font-family: Arial, sans-serif 
+    font-family: Arial, sans-serif ;
     }
        
     h2 {
