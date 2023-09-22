@@ -28,7 +28,7 @@ h6 {
 font-family: Impact, fantasy;
 }
 
-/*##################################### PARTE 02 - H1 Pagina_Principal: ######################################*/
+/*##################################### PARTE 02 - H1 Pagina_Principal: ##############################################*/
 h1.pagina_principal {
 color: blue; font-size: 14px;  
 text-align: left;
@@ -36,36 +36,36 @@ font-family: Arial, Helvetica, sans-serif;
 }
 
 h2.pagina_principal {
-color: red; font-size: 14px;  
+color: red; font-size: 12px;  
 text-align: left;
 font-family: Arial, Helvetica, sans-serif;  
 }
 
 h3.pagina_principal {
-color: yellow; font-size: 14px;  
+color: yellow; font-size: 10px;  
 text-align: left;
 font-family: Arial, Helvetica, sans-serif;  
 }
 
 h4.pagina_principal {
-color: olive; font-size: 14px;  
-text-align: left;
+color: teal; font-size: 8px;  
+text-align: maroon;
 font-family: Arial, Helvetica, sans-serif;  
 }
 
 h5.pagina_principal {
-color: olive; font-size: 14px;  
-text-align: left;
+color: olive; font-size: 7px;  
+text-align: blue;
 font-family: Arial, Helvetica, sans-serif;  
 }
 
 h6.pagina_principal {
-color: olive; font-size: 14px;  
+color: navy; font-size: 6px;  
 text-align: left;
 font-family: Arial, Helvetica, sans-serif;  
 }
 
-/*##################################### PARTE 03 - Elementos DIV : #####################################*/
+/*##################################### PARTE 03 - Elementos DIV : ###################################################*/
 div.conteudo-principal {
 height: 100px;
 /*A propriedade height, serve para definir a altura da caixa, no exemplo acima foi setado
@@ -89,7 +89,7 @@ acima, foi definido, nesta ordem arbitrária: Tamanho da borda de 5px;     sóli
 e de cor red. */
 }
 
-/*##################################### PARTE 04 - Caixas Lado a Lado : #####################################*/
+/*##################################### PARTE 04 - Caixas Lado a Lado : ##############################################*/
 div.conteudo1-principal {
 height: 100px;
 width: 80px;
@@ -99,31 +99,29 @@ border: 5px solid red;
 float: left;
 }
 
-/*##################################### PARTE 05 - FLOAT: #####################################*/
+/*##################################### PARTE 05 - FLOAT: ############################################################*/
 div.conteudo2-principal {
 height: 70px; width: 60px; margin: 0 0 0 10px;
 padding: 10px 0 0 10px; border: 5px solid red;
 float: left;
 }
 
-/*##################################### PARTE 06 - clear: #####################################*/
+/*##################################### PARTE 06 - Clear: ############################################################*/
 div.conteudo3-principal {
-    height: 100px;
-    width: 80px;
-    margin: 0 0 0 10px;
-    padding:10 px 0 0 10px;
-    border: 5px solid red;
-    float:left;
+height: 100px;
+width: 80px;
+margin: 0 0 0 10px;
+padding:10 px 0 0 10px;
+border: 5px solid red;
+float:left; 
 }
 p.nao_flutuar {clear:both;}
 
-/*##################################### PARTE 07 - diplay: block: #####################################*/
-.conteudo4{
-    display: block;
-    width: 150px;
-    background-color: #ccc;
-    border: 1px solid black;
+/*##################################### PARTE 07 - Display: Block: ############################################################*/
+.conteudo4 {
+display: block;
+width: 150px;
+background-color: #CCC;
+border: 1px solid black;
 }
-
-
                         
