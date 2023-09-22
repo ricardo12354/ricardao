@@ -106,6 +106,24 @@ padding: 10px 0 0 10px; border: 5px solid red;
 float: left;
 }
 
+/*##################################### PARTE 06 - clear: #####################################*/
+div.conteudo3-principal {
+    height: 100px;
+    width: 80px;
+    margin: 0 0 0 10px;
+    padding:10 px 0 0 10px;
+    border: 5px solid red;
+    float:left;
+}
+p.nao_flutuar {clear:both;}
+
+/*##################################### PARTE 07 - diplay: block: #####################################*/
+.conteudo4{
+    display: block;
+    width: 150px;
+    background-color: #ccc;
+    border: 1px solid black;
+}
 
 
                         
