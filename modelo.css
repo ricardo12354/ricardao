@@ -124,4 +124,20 @@ width: 150px;
 background-color: #CCC;
 border: 1px solid black;
 }
-                        
+/*##################################### PARTE 08 - Display: inline: ############################################################*/
+.conteudo5 {
+    display: inline; width: 150px;
+    background-color: #ccc; bordex: 1px solid black;
+} 
+/*##################################### PARTE 09 - position: static ############################################################*/
+div#koala {
+    position: relative;
+    top: 60px;/*faz imagem subir*/
+    left: 60px;/*desloca a imagem para direita*/
+}                    
+
+div#pinguins {
+    position; relative;
+    top: 50px;
+    left: 60px;
+}
