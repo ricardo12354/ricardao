@@ -1,0 +1,16 @@
+/*########### Parte 12 - OverFlow ###########*/
+div.overflow{
+width: 350px;
+height: 200px;
+background-color: #808080;
+overflow: auto;
+}
+
+/*########### Parte 13 - Background-Color ###########*/
+div.backgroudColor{
+border: 1px solid black;
+padding: 10px;
+}
+div{background-color: #ccc;}
+h3{background-color: #eee;}
+p{background-color: #999;}
