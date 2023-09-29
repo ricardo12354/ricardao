@@ -141,3 +141,29 @@ div#pinguins {
     top: 50px;
     left: 60px;
 }
+/*##################################### PARTE 10 - position: absolute ############################################################*/
+div#koala {
+    position: relative;
+    top: 30px; /*faz imagem subir*/
+    left: 30px;/*desloca a imagem para direita*/
+}
+ div#pinguins1 {
+ position: absolute;
+ top: 2200px;
+ left: 900px;   
+ }
+ /*##################################### PARTE 11 - z-index ############################################################*/
+ div.primeiro1 {
+    position: absolute;
+    top: 2760px;
+    left:200px;
+    background-color: red;
+    z-index: 1;
+ }
+ div.segundo2 {
+    position: absolute;
+    top: 2800px;
+    left: 300px;
+    background-color: blue;
+    z-index: 1;
+ }
