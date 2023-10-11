@@ -117,53 +117,58 @@ float:left;
 }
 p.nao_flutuar {clear:both;}
 
-/*##################################### PARTE 07 - Display: Block: ############################################################*/
-.conteudo4 {
+/*##################################### PARTE 07 - Display: Block: ###################################################*/
+div.conteudo4 {
 display: block;
 width: 150px;
 background-color: #CCC;
 border: 1px solid black;
 }
-/*##################################### PARTE 08 - Display: inline: ############################################################*/
-.conteudo5 {
-    display: inline; width: 150px;
-    background-color: #ccc; bordex: 1px solid black;
-} 
-/*##################################### PARTE 09 - position: static ############################################################*/
+
+/*##################################### PARTE 08 - Display: Inline: ##################################################*/
+div.conteudo5 {
+display: inline; width: 150px;
+background-color: #CCC; border: 1px solid black;
+}
+
+/*##################################### PARTE 09 - Position: Static ##################################################*/
 div#koala {
-    position: relative;
-    top: 60px;/*faz imagem subir*/
-    left: 60px;/*desloca a imagem para direita*/
-}                    
+position: relative;
+top: 60px; /*Faz imagem SUBIR*/
+left: 60px;/*Desloca a imagem para DIREITA*/ 
+}
 
 div#pinguins {
-    position; relative;
-    top: 50px;
-    left: 60px;
+position: relative;
+top: 20px;
+left: 20px;
 }
-/*##################################### PARTE 10 - position: absolute ############################################################*/
-div#koala {
-    position: relative;
-    top: 30px; /*faz imagem subir*/
-    left: 30px;/*desloca a imagem para direita*/
+
+/*##################################### PARTE 10 - Position: Absolute ################################################*/
+div#koala1 {
+position: relative;
+top: 30px; /*Faz imagem SUBIR*/
+left: 30px;/*Desloca a imagem para DIREITA*/ 
 }
- div#pinguins1 {
- position: absolute;
- top: 2200px;
- left: 900px;   
- }
- /*##################################### PARTE 11 - z-index ############################################################*/
- div.primeiro1 {
-    position: absolute;
-    top: 2760px;
-    left:200px;
-    background-color: red;
-    z-index: 1;
- }
- div.segundo2 {
-    position: absolute;
-    top: 2800px;
-    left: 300px;
-    background-color: blue;
-    z-index: 1;
- }
+
+div#pinguins1 {
+position: absolute;
+top: 2200px;
+left: 900px;
+}
+
+/*######################################### PARTE 11 - Z-INDEX #######################################################*/
+div.primeiro1 {
+position: absolute;
+top: 2760px;
+left: 200px;
+background-color: red;
+z-index: 1;
+}
+div.segundo2 {
+position: absolute;
+top: 2800px;
+left: 300px;
+background-color: blue;
+z-index: 1;
+}

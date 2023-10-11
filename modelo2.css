@@ -1,2 +1,23 @@
-/*########### Parte 14 - letter-spacing ###########*/
+/*####################################### PARTE 14 - Letter-Spacing ##################################################*/
 p#abc {letter-spacing: 5px;}
+
+/*####################################### PARTE 15 - Word-Spacing ####################################################*/
+p#abcd {word-spacing: 15px;}
+
+/*####################################### PARTE 16 - Text-Align ######################################################*/
+p.left {text-align: left}
+p.right {text-align: right}
+p.justify {text-align: line-justify}
+p.center {text-align: center}
+
+/*#################################### PARTE 17 - Text-Underline #####################################################*/
+p.underline {text-decoration: underline;}
+p.overline {text-decoration: overline;}
+p.line-through{text-decoration: line-through;}
+a {text-decoration: none;}
+
+/*###################################### PARTE 18 - Text-Transform ###################################################*/
+p.primeiro-maiusculo {text-transform: capitalize;}
+p.maiusculo {text-transform: uppercase;}
+p.minusculo {text-transform: lowercase;}
+
