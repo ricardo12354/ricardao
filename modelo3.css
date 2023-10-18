@@ -10,3 +10,11 @@ p{
 
 /*############################################ PARTE 20 - Focus ######################################################*/
 input:focus {background-color: #CCC;}
+
+/*############################################ PARTE 24 - Lower Roman ################################################*/
+ol.lower-roman {list-style-type: lower-roman;}
+ol.upper-roman {list-style-type: upper-roman;}
+ol.lower-alpha {list-style-type: lower-alpha;}
+ol.upper-alpha {list-style-type: upper-alpha;}
+
+
