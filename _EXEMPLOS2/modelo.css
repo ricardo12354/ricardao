@@ -1,0 +1,174 @@
+/*##################################### PARTE 01 - H1 ao H6_Título e Subtítulos: #####################################*/
+/*Sendo que o selector, representa qualquer tag HTML. Dessa forma, ao invés    de
+formatar todo título H1 individualmente, usamos o seguinte CSS, para     formatar
+todos de uma vez só.
+Assim, toda tag h1 que for utilizada no HTML, será formatada com a fonte Arial:*/
+
+h1 {
+font-family: Arial, sans-serif 
+}
+   
+h2 {
+font-family: Jazz LET, fantasy ;
+}
+
+h3 {
+font-family:Trattatello, fantasy;
+}
+
+h4 {
+font-family: Brush Script MT, Brush Script Std, cursive;
+}
+
+h5 {
+font-family:Impact;
+}
+
+h6 {
+font-family: Impact, fantasy;
+}
+
+/*##################################### PARTE 02 - H1 Pagina_Principal: ##############################################*/
+h1.pagina_principal {
+color: blue; font-size: 14px;  
+text-align: left;
+font-family: Arial, Helvetica, sans-serif;  
+}
+
+h2.pagina_principal {
+color: red; font-size: 12px;  
+text-align: left;
+font-family: Arial, Helvetica, sans-serif;  
+}
+
+h3.pagina_principal {
+color: yellow; font-size: 10px;  
+text-align: left;
+font-family: Arial, Helvetica, sans-serif;  
+}
+
+h4.pagina_principal {
+color: teal; font-size: 8px;  
+text-align: maroon;
+font-family: Arial, Helvetica, sans-serif;  
+}
+
+h5.pagina_principal {
+color: olive; font-size: 7px;  
+text-align: blue;
+font-family: Arial, Helvetica, sans-serif;  
+}
+
+h6.pagina_principal {
+color: navy; font-size: 6px;  
+text-align: left;
+font-family: Arial, Helvetica, sans-serif;  
+}
+
+/*##################################### PARTE 03 - Elementos DIV : ###################################################*/
+div.conteudo-principal {
+height: 100px;
+/*A propriedade height, serve para definir a altura da caixa, no exemplo acima foi setado
+o valor de 100px.*/
+width: 80px;   
+/*A propriedade width, serve para definir a largura da caixa, no exemplo acima foi setado
+o valor de 80px.*/
+margin: 0 0 0 10px;
+/*A propriedade margin, serve para definir uma margem externa, ou seja, fora da caixa.*/
+/*Os valores da propriedade margin, seguem a seguinte ordem: top; right;  bottom;
+left, ou seja, TOPO; DIREITA; RODAPÉ; ESQUERDA. Perceba que começa com o     lado
+superior e segue no sentido horário. */
+
+padding: 10px 0 0 10px;   
+/*A propriedade padding, serve para definir uma margem interna, ou seja,   dentro
+da caixa. Os valores começam do lado superior, e seguem no sentido horário.
+*/
+border: 5px solid red;   
+/*A propriedade border, serve para definir uma borda para a caixa. No     exemplo
+acima, foi definido, nesta ordem arbitrária: Tamanho da borda de 5px;     sólida;
+e de cor red. */
+}
+
+/*##################################### PARTE 04 - Caixas Lado a Lado : ##############################################*/
+div.conteudo1-principal {
+height: 100px;
+width: 80px;
+margin: 0 0 0 10px;
+padding: 10px 0 0 10px;
+border: 5px solid red;
+float: left;
+}
+
+/*##################################### PARTE 05 - FLOAT: ############################################################*/
+div.conteudo2-principal {
+height: 70px; width: 60px; margin: 0 0 0 10px;
+padding: 10px 0 0 10px; border: 5px solid red;
+float: left;
+}
+
+/*##################################### PARTE 06 - Clear: ############################################################*/
+div.conteudo3-principal {
+height: 100px;
+width: 80px;
+margin: 0 0 0 10px;
+padding:10 px 0 0 10px;
+border: 5px solid red;
+float:left; 
+}
+p.nao_flutuar {clear:both;}
+
+/*##################################### PARTE 07 - Display: Block: ###################################################*/
+div.conteudo4 {
+display: block;
+width: 150px;
+background-color: #CCC;
+border: 1px solid black;
+}
+
+/*##################################### PARTE 08 - Display: Inline: ##################################################*/
+div.conteudo5 {
+display: inline; width: 150px;
+background-color: #CCC; border: 1px solid black;
+}
+
+/*##################################### PARTE 09 - Position: Static ##################################################*/
+div#koala {
+position: relative;
+top: 60px; /*Faz imagem SUBIR*/
+left: 60px;/*Desloca a imagem para DIREITA*/ 
+}
+
+div#pinguins {
+position: relative;
+top: 20px;
+left: 20px;
+}
+
+/*##################################### PARTE 10 - Position: Absolute ################################################*/
+div#koala1 {
+position: relative;
+top: 30px; /*Faz imagem SUBIR*/
+left: 30px;/*Desloca a imagem para DIREITA*/ 
+}
+
+div#pinguins1 {
+position: absolute;
+top: 2200px;
+left: 900px;
+}
+
+/*######################################### PARTE 11 - Z-INDEX #######################################################*/
+div.primeiro1 {
+position: absolute;
+top: 2760px;
+left: 200px;
+background-color: red;
+z-index: 1;
+}
+div.segundo2 {
+position: absolute;
+top: 2800px;
+left: 300px;
+background-color: blue;
+z-index: 1;
+}
