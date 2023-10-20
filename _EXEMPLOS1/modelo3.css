@@ -1,0 +1,29 @@
+/*###################################### PARTE 19 - Vertical-Align ###################################################*/
+p{
+    width: 600px; height: 50px;
+    background-color: #CCC; border: 1px solid #000;
+    margin-bottom: 10px; font-size: 22px;
+    }
+    span.super{vertical-align: super;}
+    span.porcetagem{vertical-align: 100%;}
+    span.medida{vertical-align: 25px;} 
+
+/*############################################ PARTE 20 - Focus ######################################################*/
+input:focus {background-color: #CCC;}
+
+/*############################################ PARTE 24 - Lower Roman ################################################*/
+ol.lower-roman {list-style-type: lower-roman;}
+ol.upper-roman {list-style-type: upper-roman;}
+ol.lower-alpha {list-style-type: lower-alpha;}
+ol.upper-alpha {list-style-type: upper-alpha;}
+
+/*################################################ PARTE 25 - Menus ##################################################*/
+ul {list-style-type: none;}
+#menu {
+padding: 0;
+margin: 0;
+}
+
+/*################################################ PARTE 26 - Tabelas ################################################*/
+table, th, td{border: 1px solid black}
+table {width: 400px;}
