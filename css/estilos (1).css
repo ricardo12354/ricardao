@@ -1,0 +1,82 @@
+/*Zerando valores dos elementos */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {margin: 0;padding: 0;	border: 0;font-size: 100%;font: inherit;vertical-align: baseline;} article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {display: block;} body {line-height: 1;font-family:Arial,Helvetica,sans-serif;font-size:14px;} ol, ul {list-style: none;} blockquote, q {quotes: none;} blockquote:before, blockquote:after,q:before, q:after {content: '';	content: none;} table {border-collapse: collapse;border-spacing: 0;}
+/*Zerando valores dos elementos */
+
+h1{
+   font-weight: bold; /*Negrito */
+   font-size: 20px; /*O tamanho da fonte do h1 */
+   margin-bottom: 15px;  /*A margem entre o titulo h1 e o inicio do paragrafo */
+ 
+}
+/
+img{margin-top: 10px; margin-bottom: 10px;}
+.legenda{
+    font-style: italic;
+    font-size: 12pt;
+}
+ 
+pre{
+   background: #feffaf;
+   color: black;
+   line-height: 18px;
+   margin-bottom: 10px;
+   padding: 1.5em;
+   margin-bottom: 20px;
+   margin-top: 20px;
+   border: #000 1px dotted;
+
+
+}
+
+ /*Formatação do menu geral index.html*/
+ #geral{
+   width: 760px;
+   margin: auto;
+   text-align: left;
+   --background-color: red;
+
+ }
+   
+
+ /*Formatação do menu 2 coluna*/
+#cabecalho{}
+#logotipo{
+padding: 20px;
+
+}
+   
+/*Formatação do menu principal, links internos, home, contatos*/
+#menu{
+   background-color: #9b0000;
+   color: #ffffff;
+   padding: 15px;
+
+}
+
+/*Formatação do menu li*/
+#menu li{
+  display: inline;
+  margin-right: 35px;
+
+}
+
+#corpo{margin-top: 20px;}
+
+#destaque{}
+
+#destaque_top{}
+
+#destaque_top_esquerda{
+    width: 370px;
+    float: left;
+}
+
+#destaque_top_direita{
+    width: 370px;
+    float: left;
+    margin-left: 10px;
+
+}
+ 
+
+
